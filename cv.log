@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.7.17)  31 JUL 2018 11:19
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.7.17)  31 JUL 2018 13:28
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -1523,30 +1523,35 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.01224pt on input line 60.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.98067pt on input line 60.
-File: img/long.JPG Graphic file (type bmp)
-<img/long.JPG>
+File: img/kalog-noedit.jpg Graphic file (type bmp)
+<img/kalog-noedit.jpg>
 
-Overfull \hbox (16.93416pt too wide) in paragraph at lines 97--97
+Overfull \hbox (10.9766pt too wide) in paragraph at lines 66--66
+ []
+ []
+
+
+Overfull \hbox (16.93416pt too wide) in paragraph at lines 98--98
  [][]
  []
 
 
-Overfull \hbox (27.00496pt too wide) in paragraph at lines 107--107
+Overfull \hbox (27.00496pt too wide) in paragraph at lines 108--108
  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--124
+Underfull \hbox (badness 10000) in paragraph at lines 114--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--153
+Underfull \hbox (badness 10000) in paragraph at lines 128--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--175
+Underfull \hbox (badness 10000) in paragraph at lines 157--177
 
  []
 
@@ -1564,35 +1569,35 @@ File: img/4stars.png Graphic file (type bmp)
 File: img/5stars.png Graphic file (type bmp)
 <img/5stars.png>
 
-Overfull \hbox (1.8991pt too wide) in paragraph at lines 192--192
+Overfull \hbox (1.8991pt too wide) in paragraph at lines 194--194
  [][]\TU/texgyreheros-bold.otf(0)/m/n/10 Vietnamese[][]
  []
 
 File: img/2stars.png Graphic file (type bmp)
 <img/2stars.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--211
+Underfull \hbox (badness 10000) in paragraph at lines 200--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--220
+Underfull \hbox (badness 10000) in paragraph at lines 215--222
 
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
  (cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 232.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 234.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 234.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41894 strings out of 427839
- 813300 string characters out of 3152538
+ 41895 strings out of 427839
+ 813336 string characters out of 3152538
  1372126 words of memory out of 3000000
  45398 multiletter control sequences out of 15000+200000
  534263 words of font info for 62 fonts, out of 3000000 for 9000
