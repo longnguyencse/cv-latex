@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.7.17)  17 JUL 2018 13:23
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.7.17)  31 JUL 2018 11:19
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -1526,27 +1526,27 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 File: img/long.JPG Graphic file (type bmp)
 <img/long.JPG>
 
-Overfull \hbox (9.3154pt too wide) in paragraph at lines 96--96
+Overfull \hbox (16.93416pt too wide) in paragraph at lines 97--97
  [][]
  []
 
 
-Overfull \hbox (27.00496pt too wide) in paragraph at lines 106--106
+Overfull \hbox (27.00496pt too wide) in paragraph at lines 107--107
  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--138
+Underfull \hbox (badness 10000) in paragraph at lines 113--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--138
+Underfull \hbox (badness 10000) in paragraph at lines 126--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--159
+Underfull \hbox (badness 10000) in paragraph at lines 155--175
 
  []
 
@@ -1564,38 +1564,38 @@ File: img/4stars.png Graphic file (type bmp)
 File: img/5stars.png Graphic file (type bmp)
 <img/5stars.png>
 
-Overfull \hbox (1.8991pt too wide) in paragraph at lines 176--176
+Overfull \hbox (1.8991pt too wide) in paragraph at lines 192--192
  [][]\TU/texgyreheros-bold.otf(0)/m/n/10 Vietnamese[][]
  []
 
 File: img/2stars.png Graphic file (type bmp)
 <img/2stars.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--195
+Underfull \hbox (badness 10000) in paragraph at lines 198--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--204
+Underfull \hbox (badness 10000) in paragraph at lines 213--220
 
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
  (cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 232.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 232.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41870 strings out of 427839
- 812885 string characters out of 3152538
- 1371097 words of memory out of 3000000
- 45373 multiletter control sequences out of 15000+200000
- 534271 words of font info for 63 fonts, out of 3000000 for 9000
+ 41894 strings out of 427839
+ 813300 string characters out of 3152538
+ 1372126 words of memory out of 3000000
+ 45398 multiletter control sequences out of 15000+200000
+ 534263 words of font info for 62 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,9n,75p,816b,857s stack positions out of 5000i,500n,10000p,200000b,50000s
 

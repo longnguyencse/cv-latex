@@ -114,7 +114,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{30pt}{62pt}\color{header}%
-      {\thinfont #1}{\bodyfont  #2}
+      {\bodyfont  #1}{\bodyfont  #2}
     };
     \node [anchor=north] at (name.south) {%
       \fontsize{14pt}{24pt}\color{pblue}%
@@ -200,6 +200,10 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     #4\vspace{\parsep}%
   }\\}
 
+\newcommand{\info}[2]{%
+  \textbf{#1}&\parbox[t]{11.8cm}{%
+    #2\vspace{\parsep}%
+  }\\}
 
 %%%%%%%%%%%%%%
 % Side block %
