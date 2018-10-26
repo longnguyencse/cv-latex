@@ -1,0 +1,12 @@
+\documentclass[tikz,border=5mm]{standalone}
+\usepackage{graphicx}
+\usepackage{tikz}
+\begin{document}
+\tikz\node[circle,draw,
+           text=white,
+           path picture={
+               \node at (path picture bounding box.center){
+                   \includegraphics[width=3.5cm]{frog}
+               };
+           }];
+\end{document}

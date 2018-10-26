@@ -17,7 +17,6 @@
 \usepackage{dtklogos}
 \usepackage[utf8]{inputenc}
 \usepackage{tikz}
-\usepackage{tcolorbox}
 \usetikzlibrary{mindmap,shadows}
 \hypersetup{
     pdftitle={},
@@ -59,10 +58,9 @@
       
 % Fake text to add separator      
 
-\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+\fcolorbox{white}{gray!30}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
 .....
 }}
-
 
 % In the aside, each new line forces a line break
 \begin{aside}
@@ -124,88 +122,79 @@ Men
 %    ~
 %\end{aside}
 ~~~~~~~\\~\\
-%\begin{center}
+\begin{center}
 \section{Person Information}
-%\end{center}
-%\begin{entrylist}
-%\info{Address: }{Tan Binh District, Ho Chi Minh City, Viet Nam}
-%\info{Email:}{longnguyencse@gmail.com}
-%\info{Contact tel:}{+84 93 246 7086}
-%\info{Web:}{longbkitblog.wrodpress.com}
-%\info{Github:}{https://github.com/longnguyencse}
-%\end{entrylist}
-
 \begin{entrylist}
-			\info{				Address: }{Tan Binh District, Ho Chi Minh City, Viet Nam}
-			\info{				Email:}{longnguyencse@gmail.com}
-			\info{				Contact tel:}{+84 93 246 7086}
-			\info{				Web:}{longbkitblog.wrodpress.com}
-			\info{				Github:}{https://github.com/longnguyencse}
+\info{Address: }{Tan Binh District, Ho Chi Minh City, Viet Nam}
+\info{Email:}{longnguyencse@gmail.com}
+\info{Contact tel:}{+84 93 246 7086}
+\info{Web:}{longbkitblog.wrodpress.com}
+\info{Github:}{https://github.com/longnguyencse}
 \end{entrylist}
-
+\end{center}
 \section{Experience}
 \begin{entrylist}
   \entry
     {11/15 - Now}
     {Java Developer}
     {Ikorn Solutions}
-   {\textbf{ Dubu Suite:} We have built multiple applications and communications systems that are widely-used in our target industries.~
-	 Many of our systems are designed on modular basic with independent applications that seamlessly dovetail into stable, fully-intergrated packages.\\
-
-	 \textbf{Development Languages:} Java, C++, HTML/CSS/JS\\
-	 \textbf{Technologies:}~
+   {\textbf{1. Dubu Suite:} We have built multiple applications and communications systems that are widely-used in our target industries.\\
+	 Many of our systems are designed on modular basic with independent applications that seamlessly dovetail into stable, fully-intergrated packages.
+	\begin{itemize}
+		\item \textbf{Development Languages:} Java, C++, HTML/CSS/JS
+		\item \textbf{Technologies:}
 			\begin{itemize}
 				\item \textbf{Platform:} Web, Window and Mobile
 				\item \textbf{Framework:} Spring MVC, Struts
 				\item \textbf{Database:} MySQL, NoSQL (Mongo, Mnesia)
 				\item \textbf{Protocol:} MySQL, NoSQL (Mongo, Mnesia)
 			\end{itemize}
-		 \textbf{Engineer Engagement} 16 personnel\\
-		 \textbf{Project Duration} 36 months\\
-		 \textbf{Component products :} Dubu messenger, Dubu mail, dubu log, dubu sns, dubu disk, dubu editor\\
-}
-\end{entrylist}
-\begin{entrylist}
+		\item \textbf{Engineer Engagement} 16 personnel
+		\item \textbf{Project Duration} 36 months
+		\item \textbf{Component products :} Dubu messenger, Dubu mail, dubu log, dubu sns, dubu disk, dubu editor
+	\end{itemize}}
 \entry
     {11/15 - Now}
     {Java Developer}
     {Ikorn Solutions}
-	{\textbf{ Dubu Plus: } A multifunctional responsive web builder that makes it easy to create a website without any professional knowledge.
-	\\ This can leverage optimized ecosystems for multiple devices such as PC, tablet, mobile, etc. and offer full support for businesses including shopping and booking packages.\\
+	{\textbf{2. Dubu Plus: } A multifunctional responsive web builder that makes it easy to create a website without any professional knowledge.
+	\\ This can leverage optimized ecosystems for multiple devices such as PC, tablet, mobile, etc. and offer full support for businesses including shopping and booking packages.
 
-		 \textbf{Development Languages:} PHP/ HTML/ CSS/ JS~
-		 \textbf{Technologies:}~
+	\begin{itemize}
+		\item \textbf{Development Languages:} PHP/ HTML/ CSS/ JS
+		\item \textbf{Technologies:}
 			\begin{itemize}
 				\item \textbf{Platform:} Web,  Mobile
 				\item \textbf{Framework:} Custom
 				\item \textbf{Database:} MySQL, NoSQL (Mongo, Mnesia)
 				\item \textbf{Protocol:} MySQL, NoSQL (Mongo, Mnesia)
 			\end{itemize}
-		 \textbf{Engineer Engagement:} 10 personnel\\
-		 \textbf{Project Duration} 24  months\\
-	}
+		\item \textbf{Engineer Engagement:} 10 personnel
+		\item \textbf{Project Duration} 24  months
+	\end{itemize}}
 \end{entrylist}
 \begin{entrylist}
 \entry
     {11/15 - Now}
     {Java Developer}
     {Ikorn Solutions}
-	{\textbf{ Quark}  is B2B marketplace for marketing affiliate partners with \#Value Links.\\ 
-	It is dedicated to connecting the world‚Äôs supply chains and accelerating the adoption of sustainable \#Value Links practices.
-	With a free account and support for multiple languages, it‚Äôs extremely easy to use.\\
+	{\textbf{3. Quark}  is B2B marketplace for marketing affiliate partners with \#Value Links.\\ 
+	It is dedicated to connecting the worldís supply chains and accelerating the adoption of sustainable \#Value Links practices.
+	With a free account and support for multiple languages, itís extremely easy to use.\\
 	 Just a few simple mouse clicks, and administrator can monitor displayed item views, popularity, and visitor counts.\\
 
-	 \textbf{Development Languages:} PHP/ HTML/ CSS/ JS\\
-	 \textbf{Technologies:}~
+	\begin{itemize}
+		\item \textbf{Development Languages:} PHP/ HTML/ CSS/ JS
+		\item \textbf{Technologies:}
 			\begin{itemize}
 				\item \textbf{Platform:} Web,  Mobile
 				\item \textbf{Framework:} Yii
 				\item \textbf{Database:} MySQL, Apache Solr
 				\item \textbf{Protocol:} Http/https
 			\end{itemize}
-		 \textbf{Engineer Engagement:} 11 personnel\\
-		 \textbf{Project Duration} 12  months~
-	}
+		\item \textbf{Engineer Engagement:} 11 personnel
+		\item \textbf{Project Duration} 12  months
+	\end{itemize}}
 \end{entrylist}
 \begin{entrylist}
 %$-$
@@ -213,23 +202,25 @@ Men
     {11/15 - Now}
     {Java Developer}
     {Ikorn Solutions}
-	{\textbf{ Data Annotation: } We label all videos and images that were recorded while driving. This ground truth is the basis for training objects detection algorithms.\\
+	{\textbf{4. Data Annotation: } We label all videos and images that were recorded while driving. This ground truth is the basis for training objects detection algorithms.\\
 	We use Apache Kafka, Apache Strom, Apache Hadoop, HDFS, Vert.x and MongoDb to build data lake.\\
 		
 	\includegraphics[scale=0.3]{img/labeling_img_14.png}
-	\includegraphics[scale=0.3]{img/labeling_img_5_1.png}\\
+	\includegraphics[scale=0.3]{img/labeling_img_5_1.png}
 
-	 \textbf{Development Languages:} PHP/ HTML/ CSS/ JS~
-	 \textbf{Technologies:}~
+	\begin{itemize}
+		\item \textbf{Development Languages:} PHP/ HTML/ CSS/ JS
+		\item \textbf{Technologies:}
 			\begin{itemize}
 				\item \textbf{Platform:}  Web, Application
 				\item \textbf{Framework:} Kirita, Meteor Js, Apache Nifi,  Vert.x, Apache Storm, Apache Kafka  
 				\item \textbf{Database:} MySQL, Apache Solr
 				\item \textbf{Protocol:} Http/https
 			\end{itemize}
-	 \textbf{Engineer Engagement:} 12 personnel\\
-	 \textbf{Project Duration} 12/2017 - Present~
-	}
+		\item \textbf{Engineer Engagement:} 12 personnel
+		\item \textbf{Project Duration} 12/2017 - Present
+	\end{itemize}
+}
   \entry
     {09/15 - 11/15}
     {Java Developer}
@@ -249,7 +240,7 @@ Men
     {Master's Degree in Computer Engineering}
     {Bach Khoa University}
     {Current enrolled for first years at Back Khoa university. Course taken include: 
-Advanced Programming , Advanced Computer Architeture , Advanced Algorithms,‚Ä¶\\}
+Advanced Programming , Advanced Computer Architeture , Advanced Algorithms,Ö\\}
   \entry
     {2011 - 2016}
     {Bachelor's Degree in Computer Engineering}
@@ -282,8 +273,8 @@ Advanced Programming , Advanced Computer Architeture , Advanced Algorithms,‚Ä¶\\
 
 \section{Volunteer Experience}
 Student Volunteer\\
-\textbf{Support the activities of the holiday season in Ph·∫≠t Quang Pagoda - V≈©ng T√†u}\\
-\emph{Visit SOS Children's Village (ƒê√¥ng H√≤a, Dƒ© AN, B√¨nh D∆∞∆°ng)}
+\textbf{Support the activities of the holiday season in Ph?t Quang Pagoda - Vung T‡u}\\
+\emph{Visit SOS Children's Village (–Ùng HÚa, Di AN, BÏnh Duong)}
 \\
 %\section{Honors \& Awards}
 %\begin{entrylist}
@@ -306,7 +297,7 @@ Student Volunteer\\
 
 %\section{Other Info}
 %For the Italian job market:\\
-%\emph{Si autorizza il trattamento delle informazioni contenute nel curriculum in conformit√† alle disposizioni previste dal %d.lgs. 196/2003. Si dichiara altres√¨ di essere consapevole che, in caso di dichiarazioni non veritiere, si √® passibili di sanzioni %penali ai sensi del DPR 445/00 oltre alla revoca dei benefici eventualmente percepiti.}
+%\emph{Si autorizza il trattamento delle informazioni contenute nel curriculum in conformit‡ alle disposizioni previste dal %d.lgs. 196/2003. Si dichiara altresÏ di essere consapevole che, in caso di dichiarazioni non veritiere, si Ë passibili di sanzioni %penali ai sensi del DPR 445/00 oltre alla revoca dei benefici eventualmente percepiti.}
 %\\
 \begin{flushleft}
 \emph{Jul 17th, 2018}

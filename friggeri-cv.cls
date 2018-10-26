@@ -113,11 +113,11 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
-      \fontsize{30pt}{62pt}\color{header}%
+      \fontsize{30pt}{62pt}\color{pblue}% mau header
       {\bodyfont  #1}{\bodyfont  #2}
     };
     \node [anchor=north] at (name.south) {%
-      \fontsize{14pt}{24pt}\color{pblue}%
+      \fontsize{14pt}{24pt}\color{materialbrown}%
       \bodyfont #3%
     };
   \end{tikzpicture}
@@ -185,12 +185,13 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 % List environment %
 %%%%%%%%%%%%%%%%%%%%
 
-\setlength{\tabcolsep}{0pt}
+\setlength{\tabcolsep}{2pt}
 \newenvironment{entrylist}{%
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
   \end{tabular*}
 }
+
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
   #1&\parbox[t]{11.8cm}{%
