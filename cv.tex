@@ -58,10 +58,16 @@
       {Computer Engineer}
       
 % Fake text to add separator      
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{3pt}}
+%\fcolorbox{white}{black}{\parbox{1cm}{%
+%\.
+%}}
 
-\fcolorbox{white}{black}{\parbox{\dimexpr\textwidth\fboxsep\fboxrule}{%
-\_\_\_\_
-}}
+% https://tex.stackexchange.com/questions/19579/horizontal-line-spanning-the-entire-document-in-latex
+
+%\fcolorbox{white}{black}{\parbox{\dimexpr\textwidth\fboxsep\fboxrule}{%
+%\.
+%}}
 
 %\fcolorbox{white}{black}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
 %\_\_\_\_
@@ -133,7 +139,7 @@ Men
 %			 \textbf{\hspace{6cm}  as application development specialist}\\
 %\section{Summary Object:}
 \begin{entrylist}
-	\info{                        Summary Object: }{ Looking to leverage my knowledge and experience into a role  as\\ application development specialist}
+	\hspace{0.5cm} \info{Summary Object: }{ Looking to leverage my knowledge and experience into a role  as\\ application development specialist}
 \end{entrylist}
 \begin{center}
 \section{Person Information}
@@ -155,9 +161,73 @@ Men
 \end{entrylist}
 
 \section{Experience}
+
+%\begin{entrylist}
+%  \entry
+%    {09/15 - 11/15}
+%    {Java Developer}
+%    {Fujinet Systems JSC}
+%    {We build web application by Java and Velocity\\}
+%\end{entrylist}
 \begin{entrylist}
   \entry
-    {11/15 - Now}
+    {11/18 - now}
+    {JavaScript Developer}
+    {Ikorn Solutions}
+    {Developing new Kibana visualizations. We made some significant changes to the visualize API and how visualizations are implemented\\
+
+	\includegraphics[scale=0.08]{img/kibana_01.jpg} \hspace{2cm}
+	\includegraphics[scale=0.1]{img/kibana.png}\\
+	
+	\textbf{Development Languages:} PHP/ HTML/ CSS/ JS~\\
+	 \textbf{Technologies:}~
+			\begin{itemize}
+				\item \textbf{Platform:}  Web
+				\item \textbf{Framework:} kibana 6.3
+				\item \textbf{Protocol:} Http/https
+			\end{itemize}
+	 \textbf{Engineer Engagement:} 1-2 personnel\\
+	 \textbf{Project Duration} 06/2018 - Present~
+     }
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+    {11/17 - Now}
+    {Java Developer}
+    {Ikorn Solutions}
+	{\textbf{ Data Annotation: } We label all videos and images that were recorded while driving. This ground truth is the basis for training objects detection algorithms.\\
+	We use Apache Kafka, Apache Strom, Apache Hadoop, HDFS, Vert.x and MongoDb to build data lake.\\
+		
+	\includegraphics[scale=0.3]{img/labeling_img_14.png} \hspace{1cm}
+	\includegraphics[scale=0.25]{img/labeling_img_5_1.png}\\
+}
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+%    {11/17 - Now}
+%    {Java Developer}
+%    {Ikorn Solutions}
+{}
+{}
+{}
+	{ \textbf{Development Languages:} PHP/ HTML/ CSS/ JS~\\
+	 \textbf{Technologies:}~
+			\begin{itemize}
+				\item \textbf{Platform:}  Web, Application
+				\item \textbf{Framework:} Kirita, Meteor Js, Apache Nifi,  Vert.x, Apache Storm, Apache Kafka  
+				\item \textbf{Database:} MySQL, Apache Solr
+				\item \textbf{Protocol:} Http/https
+			\end{itemize}
+	 \textbf{Engineer Engagement:} 12 personnel\\
+	 \textbf{Project Duration} 12/2017 - Present~
+	}
+\end{entrylist}
+
+\begin{entrylist}
+  \entry
+    {01/16 -10/17}
     {Java Developer}
     {Ikorn Solutions}
    {\textbf{ Dubu Suite:} We have built multiple applications and communications systems that are widely-used in our target industries.~
@@ -176,15 +246,48 @@ Men
 		 \textbf{Component products :} Dubu messenger, Dubu mail, dubu log, dubu sns, dubu disk, dubu editor\\
 }
 \end{entrylist}
+
 \begin{entrylist}
 \entry
-    {11/15 - Now}
+    {07/16 - 12/16}
+    {Java Developer}
+    {Ikorn Solutions}
+	{\textbf{ Quark}  is B2B marketplace for marketing affiliate partners with \#Value Links.\\ 
+	It is dedicated to connecting the world’s supply chains and accelerating the adoption of sustainable \#Value Links practices.
+	With a free account and support for multiple languages, it’s extremely easy to use.\\
+	 Just a few simple mouse clicks, and administrator can monitor displayed item views, popularity, and visitor counts.\\
+	Quark Clawler is the clawer for collecting data  for QuarkB2B website.\\
+
+	 \textbf{Development Languages:} PHP/ HTML/ CSS/ JS, Java (Web Crawler) \\ 
+	 \textbf{Technologies:}~
+			\begin{itemize}
+				\item \textbf{Platform:} Web,  Mobile, hadoop-hdfs (File system for web clawer)
+				\item \textbf{Framework:} Yii
+				\item \textbf{Database:} MySQL, Apache Solr, HBase (Database for Web Clawer)
+				\item \textbf{Protocol:} Http/https
+			\end{itemize}
+		 \textbf{Engineer Engagement:} 11 personnel\\
+		 \textbf{Project Duration} 12  months~
+	}
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+    {11/15 - 06/16}
     {Java Developer}
     {Ikorn Solutions}
 	{\textbf{ Dubu Plus: } A multifunctional responsive web builder that makes it easy to create a website without any professional knowledge.
 	\\ This can leverage optimized ecosystems for multiple devices such as PC, tablet, mobile, etc. and offer full support for businesses including shopping and booking packages.\\
+}
+\end{entrylist}
 
-		 \textbf{Development Languages:} PHP/ HTML/ CSS/ JS~
+\begin{entrylist}
+\entry
+{}
+{}
+{}
+{
+		 \textbf{Development Languages:} PHP/ HTML/ CSS/ JS~\\
 		 \textbf{Technologies:}~
 			\begin{itemize}
 				\item \textbf{Platform:} Web,  Mobile
@@ -196,63 +299,23 @@ Men
 		 \textbf{Project Duration} 24  months\\
 	}
 \end{entrylist}
-\begin{entrylist}
-\entry
-    {11/15 - Now}
-    {Java Developer}
-    {Ikorn Solutions}
-	{\textbf{ Quark}  is B2B marketplace for marketing affiliate partners with \#Value Links.\\ 
-	It is dedicated to connecting the world’s supply chains and accelerating the adoption of sustainable \#Value Links practices.
-	With a free account and support for multiple languages, it’s extremely easy to use.\\
-	 Just a few simple mouse clicks, and administrator can monitor displayed item views, popularity, and visitor counts.\\
 
-	 \textbf{Development Languages:} PHP/ HTML/ CSS/ JS\\
-	 \textbf{Technologies:}~
-			\begin{itemize}
-				\item \textbf{Platform:} Web,  Mobile
-				\item \textbf{Framework:} Yii
-				\item \textbf{Database:} MySQL, Apache Solr
-				\item \textbf{Protocol:} Http/https
-			\end{itemize}
-		 \textbf{Engineer Engagement:} 11 personnel\\
-		 \textbf{Project Duration} 12  months~
-	}
-\end{entrylist}
 \begin{entrylist}
-%$-$
-\entry
-    {11/15 - Now}
-    {Java Developer}
-    {Ikorn Solutions}
-	{\textbf{ Data Annotation: } We label all videos and images that were recorded while driving. This ground truth is the basis for training objects detection algorithms.\\
-	We use Apache Kafka, Apache Strom, Apache Hadoop, HDFS, Vert.x and MongoDb to build data lake.\\
-		
-	\includegraphics[scale=0.3]{img/labeling_img_14.png}
-	\includegraphics[scale=0.3]{img/labeling_img_5_1.png}\\
-
-	 \textbf{Development Languages:} PHP/ HTML/ CSS/ JS~
-	 \textbf{Technologies:}~
-			\begin{itemize}
-				\item \textbf{Platform:}  Web, Application
-				\item \textbf{Framework:} Kirita, Meteor Js, Apache Nifi,  Vert.x, Apache Storm, Apache Kafka  
-				\item \textbf{Database:} MySQL, Apache Solr
-				\item \textbf{Protocol:} Http/https
-			\end{itemize}
-	 \textbf{Engineer Engagement:} 12 personnel\\
-	 \textbf{Project Duration} 12/2017 - Present~
-	}
   \entry
     {09/15 - 11/15}
     {Java Developer}
     {Fujinet Systems JSC}
     {We build web application by Java and Velocity\\}
+\end{entrylist}
+
+\begin{entrylist}
     \entry
     {06/14 - 08/14}
     {Java Developer - Intership (Prepoolk24)}
     {FPT Software}
     {We learn software development process (SEP) , using subversion (SVN) and develop web applications using Structs 2 Web framework\\}
 \end{entrylist}
-\newpage
+%\newpage
 \section{Education}
 \begin{entrylist}
   \entry
@@ -261,13 +324,15 @@ Men
     {Bach Khoa University}
     {Current enrolled for first years at Back Khoa university. Course taken include: 
 Advanced Programming , Advanced Computer Architeture , Advanced Algorithms,…\\}
+\end{entrylist}
+\begin{entrylist}
   \entry
     {2011 - 2016}
     {Bachelor's Degree in Computer Engineering}
     {Bach Khoa University}
     {Grandted Bachelor of Engineering of Back Khoa University major Computor sience. Cumulative Major GPA 7.29\\
-       $*$ Intership: Android system encrypts files by using the biometric facial recognition feature.\\
-       $*$ Thesis: 	Workflow management system of factory textile base on web application\\}
+       $*$ \textbf{Intership:} Android system encrypts files by using the biometric facial recognition feature.\\
+       $*$ \textbf{Thesis:} 	Workflow management system of factory textile base on web application\\}
 \end{entrylist}
 
 %\newpage
